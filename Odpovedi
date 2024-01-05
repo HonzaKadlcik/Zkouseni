@@ -1,0 +1,18 @@
+//1.metoda - odmocninia
+function Odmocnina(cislo)
+
+//2.metoda - lichost
+function Lichost(cislo)
+{if (cislo % 2 === 0)
+{return false;}
+else
+{return true;}
+}
+let cislo = 7;
+if (Lichost(cislo))
+console.log(cislo + " je liché číslo");
+else
+console.log(cislo + " je sudé číslo");
+
+//3.metoda - zjištění zda je prvek v poli
+function Pole(cislo)
